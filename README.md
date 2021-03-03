@@ -11,7 +11,7 @@ This folder has everything used to make the game, which includes the HTML, CSS, 
 
 #HOW
 
-The game was written in Notepad++, if you plan on editting these files use any Text Editor you want. Feel free to make your own versions of this game, but selling them is not allowed.
+The game was written in Notepad++. If you plan on editting these files, use any Text Editor you want. Feel free to make your own versions of this game, but selling them is not allowed.
 
 Thank you for reading,
 
