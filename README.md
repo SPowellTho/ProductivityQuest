@@ -7,7 +7,7 @@ This game was a way of both practicing Javascript but also fully realizing an id
 
 #WHAT
 
-This folder has everything used to make the game, which includes the HTML, CSS, and javascript code. Additionally, it also contains the images used in the game. That's it! The game is pretty lightweight, requiring only a single webpage.
+This folder has everything used to make the game, which includes the HTML, CSS, and javascript code. Additionally, it also contains the images used in the game. That's it! The game is pretty lightweight, requiring only a single webpage. For those not savvy in HTML, opening the "index.html" file is how you open the game.
 
 #HOW
 
