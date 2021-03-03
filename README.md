@@ -1,5 +1,5 @@
 # ProductivityQuest
-A Simple HTML Game
+A Simple HTML/Javascript Game
 
 #WHY
 
