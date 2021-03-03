@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap" rel="stylesheet"> <link rel="stylesheet" href="game.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<title>Productivity Quest</title>
+</head>
+
+<body>
+<main>
+	<div id="screen">	
+		<div id="topField">
+			<div id="playerImage"><img src="images/playerGO-1.png" alt="Visual Representation of the player"></div>
+			<div id="enemyImage"><img alt="Visual Representation of a Project"></div>			
+		</div>
+		
+		<div id="bottomField">
+			<div id="battleOptions">
+				<button class="box" id="GO">
+					<h1>GO!</h1>
+					<p>Make Progress on the project.</p>
+				</button>
+				
+				<button class="box" id="NAP">
+					<h1>NAP!</h1>
+					<p>Rest to restore your energy.</p>
+				</button>
+				
+				<button class="box" id="READ">
+					<h1>READ!</h1>
+					<p>Read to restore your motivation.</p>
+				</button>
+			</div>
+			
+			<div id="HUD">
+			</div>
+			
+			<div id="deadline"><p>SUN</p><p>MON</p><p>TUE</p><p>WED</p><p>THU</p><p>FRI</p><p>SAT</p></div>
+			
+			<div id="textBox"></div>
+		</div>
+	</div>
+	
+	<div id="guide">
+		<p>Hi! The goal of this game to complete as many projects as you can. Pushing the "GO!" option will have you work on the project. Your motivation increases the amount of tasks you complete. 
+		Your Energy determines how much progress you gain for each task completed. Keep an eye on both of these factors! Nap and Read in your free time to stay in peak condition!</p>
+		<p>You will also notice that the days of the week are displayed. The day of the week that is highlighted is the current day you are on. Once it becomes Sunday, you will be given a new project to work on. 
+		If you haven't completed your last project by then, that's Game Over! Good Luck!</p>
+		<p>Oh and that big circle around the player, that's a representation of the current project. Projects that require more energy have a thicker outline. Projects that require more motivation have more spikes. 
+		Projects that are higher up on the screen will require more work to complete.</p>
+	</div>
+	
+	<script src="myFunctions.js"></script>
+</body>

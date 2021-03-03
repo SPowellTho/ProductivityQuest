@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+background-color: #001524;
+}
+#screen {
+	background-color: #F1ECCE;
+	height: 900px;
+	width: 600px;
+	margin: 1% auto;
+	font-family: 'DotGothic16', sans-serif;
+	font-size: 12pt;
+	min-width: 360px;
+}
+
+#topField {
+	background-color: #9FC2CC;
+	height: 50%;
+	width: 100%;
+	position:relative;
+}
+
+#bottomField {
+	background-color: #F1ECCE;
+	width: 98%;
+	position:relative;
+	margin: 1%;
+}
+
+#battleOptions {
+	background-color: ;
+	text-align: center;
+	display: flex;
+}
+
+#battleOptions .box {
+	margin: 1%;
+	background-color: ;
+	background-image: url("images/");
+	border: 2px solid black;
+	width: 30%;
+	
+	text-align: center;
+	flex-grow: 1;
+	
+}
+
+#battleOptions .box h1 {
+	font-size: 30pt;
+	font-weight: bold;
+	display: block;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#battleOptions .box p {
+	display: block;
+	margin: 0;
+	font-family: 'DotGothic16', sans-serif;
+	font-size: 12pt;
+}
+
+#deadline {
+	
+	display: flex;
+}
+
+#deadline p {
+	flex-grow: 1;
+	border: 2px solid black;
+	text-align: center;
+	margin: 1%;
+	
+}
+
+#textBox {
+	background-color:#edf4ff;
+	margin: 1%;
+}
+
+#playerImage {
+	position: absolute;
+    bottom: 0;
+    left: 34%;
+	background-color: red;
+}
+
+#playerImage img {
+	position: absolute;
+    bottom: 0;
+}
+
+#enemyImage {
+	position: absolute;
+    bottom: 0;
+	background-color: red;
+}
+
+#enemyImage img {
+	position: absolute;
+    bottom: 0;
+}
+
+#HUD {
+	margin: 1%;
+	display: flex;
+	text-align: center;
+	border: 2px solid black;
+}
+
+#HUD p{
+	margin: 0 0 0 3%;
+	font-weight: bold;
+	color: black;
+	display: block;
+	flex-grow: 1;
+}
+
+#guide {
+	width: 600px;
+	margin: 4% auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+	color: white;
+}
